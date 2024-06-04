@@ -8,6 +8,10 @@ The requirements can be installed using Conda by running:
 
 > conda create --name LLMExtract --file requirements.txt
 
+Make sure that you have added conda-forge to your conda channels:
+
+> conda config --append channels conda-forge
+
 The code is intended to run on an Nvidia A40 with 48GB Vram, 32GB of RAM and 8 CPU cores. Smaller models can be run with lesser hardware as well, but be sure to change the batchsizes in the scripts.
 
 ## Generation
